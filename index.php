@@ -53,6 +53,9 @@ if(isset ($_SESSION['usuario'])){
                     <input type="text" name="usuario" placeholder="Usuario" require>
                     <input type="password"  name="contrasena" placeholder="Contraseña" require>
                     <button>Regístrarse</button>
+                    <br>
+                    <br>
+                    <a href="usuario.php" role="button">Manual de usuario</a>
                 </form>
             </div>
         </div>
