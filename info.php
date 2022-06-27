@@ -38,6 +38,7 @@ if(!isset($_SESSION['usuario'])){
                 <ul>
                     <li><a href="info.php">Inicio</a></li>
                     <li><a href="php/cerrar_sesion.php">Cerrar Sesion</a></li>
+                      <li><a href="usuario.php">Manual de usuario</a></li>
                 </ul>
             </nav>
 
