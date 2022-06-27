@@ -25,6 +25,7 @@
         Telefono:<input type="text" name="telefono" placeholder="Telefono" >
 
         <input type="submit" name="Guardar" >
+        <a href="info.php" role="button">Inicio</a>
        
     </form>
     <?php
