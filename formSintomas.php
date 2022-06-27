@@ -25,6 +25,7 @@
         Cual es su Direccion:<input type="text" name="direccion" placeholder="Cual es su Direccion" >
 
         <input type="submit" name="Guardar">
+        <a href="info.php" role="button">Inicio</a>
        
     </form>
     <?php
