@@ -1,42 +1,42 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Formulario Estudios</title>
+    <title>Formulario Enfermedad</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="assets/css/estiloformularios.css">
 </head>
 <body> 
     <form method="POST" >
-        <h1>Formulario De Sintomas</h1>
+        <h1>Formulario De Enfermedad</h1>
 
-        Nombre Completo:<input type="text" name="nombrecompleto" placeholder="Nombre Completo" >
+        Nombre del Paciente:<input type="text" name="nombre_paciente" placeholder="Nombre del Paciente" >
 
-        Digite su CURP:<input type="text" name="curp" placeholder=" Digite su CURP" >
+        Nombre de la Enfermedad:<input type="text" name="nombre_enfermedad" placeholder="Nombre de la Enfermedad" >
 
-        Cual es su Edad:<input type="text" name="edad" placeholder="Cual es su Edad" >
+        Nombre del Medicamento:<input type="text" name="nombre_medicamento" placeholder="Nombre del Medicamento" >
 
-        Malestares y Tiempo de los Sintomas:<input type="text" name="tipo_malestar" placeholder="Malestares y Tiempo de los Sintomas" >
+        Tiempo Diagnosticado:<input type="text" name="tiempo_diagnosticado" placeholder="Tiempo Diagnosticado" >
 
-        Lugar de la molestia:<input type="text" name="lugarmolestia" placeholder="Lugar de la molestia" >
+        Direccion:<input type="text" name="direccion" placeholder="Direccion" >
 
-        Cual es su Direccion:<input type="text" name="direccion" placeholder="Cual es su Direccion" >
+        Email:<input type="text" name="email" placeholder="Email" >
 
+        Telefono:<input type="text" name="telefono" placeholder="Telefono" >
 
-
-          <button type="submit" name="Guardar">Imprimir</button>
-
-        
-        <!--  <input type="submit" name="Guardar" onclick="index.php"> -->
-
-        <a href="info.php" type="button">Pagina principal</a>
+       
+        <button type="submit"  href="info.php" name="Guardar">Imprimir</button>
 
         
-
+<!--  <input type="submit" name="Guardar" onclick="index.php"> -->
+        
+        <a href="info.php" type="button">Pagina Principal</a>
+        <a href="recetaPDF.php" type="button">Ver Pdf</a>
 
        
     </form>
     <?php
-    include("php/registro_Sintomas.php");
+    include("php/regis_enfer.php");
     ?>
 </body>
 </html>
