@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,14 +15,24 @@
 
         Cual es su Edad:<input type="text" name="edad" placeholder="Cual es su Edad" >
 
-        Malestares y Tiempo de los Sintomas:<input type="text" name="tiempomalestar" placeholder="Malestares y Tiempo de los Sintomas" >
+        Malestares y Tiempo de los Sintomas:<input type="text" name="tipo_malestar" placeholder="Malestares y Tiempo de los Sintomas" >
 
         Lugar de la molestia:<input type="text" name="lugarmolestia" placeholder="Lugar de la molestia" >
 
         Cual es su Direccion:<input type="text" name="direccion" placeholder="Cual es su Direccion" >
 
-        <input type="submit" name="Guardar">
-        <a href="info.php" role="button">Inicio</a>
+
+
+          <button type="submit" name="Guardar">Imprimir</button>
+
+        
+        <!--  <input type="submit" name="Guardar" onclick="index.php"> -->
+
+        <a href="info.php" type="button">Pagina principal</a>
+
+        
+
+
        
     </form>
     <?php
