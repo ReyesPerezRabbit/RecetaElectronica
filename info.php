@@ -57,7 +57,7 @@ if(!isset($_SESSION['usuario'])){
     <h1>Informacion sobre la creacion de la receta Electronica</h1>
 <hr>
 
-    <p>Si ya tienes una enfermedad diagnosticada solo ´presiona lo siguiente </p>
+    <p>Si ya tienes una enfermedad diagnosticada solo presiona lo siguiente </p>
         <a href="formEnfer.php">! ENFERMEDADES ¡</a>
         
         <p>si deseas ser diagnosticado cun una enfermedad selecciona lo siguiente</p>
