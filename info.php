@@ -38,7 +38,7 @@ if(!isset($_SESSION['usuario'])){
                 <ul>
                     <li><a href="info.php">Inicio</a></li>
                     <li><a href="php/cerrar_sesion.php">Cerrar Sesion</a></li>
-                      <li><a href="usuario.php">Manual de usuario</a></li>
+                    <li><a href="assets/document/dentro.pdf">Manual de usuario</a></li>
                 </ul>
             </nav>
 
@@ -72,13 +72,14 @@ if(!isset($_SESSION['usuario'])){
             <img src="assets/imagenes/icono3.png" alt="">
         </div>
         <div class="redes-footer">
-            <a href=""><i class="fa-brands fa-facebook icon-redes-footer"></i></a>
+            <a href="https://www.facebook.com/PolitecnicaChis"><i class="fa-brands fa-facebook icon-redes-footer"></i></a>
             <a href=""><i class="fa-brands fa-discord icon-redes-footer"></i></a>
             <a href=""><i class="fa-brands fa-google icon-redes-footer"></i></a>
         </div>
         <hr>
         <h3>Pagina Diseñada por Java Crew </h3>
     </footer>
+
 </div>
 </body>
 </html>
