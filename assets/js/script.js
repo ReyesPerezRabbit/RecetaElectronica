@@ -2,9 +2,9 @@
 document.getElementById("btn__iniciar-sesion").addEventListener("click", iniciarSesion);
 document.getElementById("btn__registrarse").addEventListener("click", register);
 
-//Normas que llevara la pagina
-
+//Las normas y restricciones al usar la pagina 
 document.getElementById('btn__registrarse').onclick = function(){ alert('Estas son las Normas de esta pagina. Al darle aseptar debera tomar en cuenta que los datos que ingrese y el uso que le de a la receta la pagina al igual que la empresa no se hara responsable de actos ilisitos o mal uso de las recetas');}
+
 
 window.addEventListener("resize", anchoPage);
 
