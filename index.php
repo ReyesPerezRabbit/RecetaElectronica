@@ -26,11 +26,13 @@ if(isset ($_SESSION['usuario'])){
                     <h3>¿Ya tienes una cuenta?</h3>
                     <p>Inicia sesión para entrar en la página</p>
                     <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+                    
                 </div>
                 <div class="caja__trasera-register">
                     <h3>¿Aún no tienes una cuenta?</h3>
                     <p>Regístrate para que puedas iniciar sesión</p>
                     <button id="btn__registrarse">Regístrarse</button>
+
                 </div>
             </div>
 
@@ -45,6 +47,7 @@ if(isset ($_SESSION['usuario'])){
                     <button>Entrar</button>
                 </form>
 
+
                 <!--Registro-->
                 <form action="php/registro_usuario.php" method="POST" class="formulario__register">
                     <h2>Regístrarse</h2>
@@ -55,7 +58,7 @@ if(isset ($_SESSION['usuario'])){
                     <button>Regístrarse</button>
                     <br>
                     <br>
-                    <a href="usuario.php" role="button">Manual de usuario</a>
+                    <a href="assets/document/manualregis.pdf" role="button">Manual de usuario</a>
                 </form>
             </div>
         </div>
